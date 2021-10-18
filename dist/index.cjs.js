@@ -2184,20 +2184,20 @@ var socials = [
     {
         label: "Gitbook",
         icon: "GitbookIcon",
-        href: "https://martianswap.gitbook.io/",
+        href: "https://degenapefarm.gitbook.io/",
     },
-    {
-        label: "Medium",
-        icon: "MediumIcon",
-        href: "https://martianswap.medium.com/",
-    },
+    // {
+    //     label: "Medium",
+    //     icon: "MediumIcon",
+    //     href: "https://degenapefarm.medium.com/",
+    // },
     {
         label: "Telegram",
         icon: "TelegramIcon",
         items: [
             {
                 label: "English",
-                href: "https://t.me/martianswap",
+                href: "https://t.me/degenapefarm",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2241,14 +2241,14 @@ var socials = [
             // },
             {
                 label: "Announcements",
-                href: "https://t.me/martianswapnews",
+                href: "https://t.me/degenapefarmnews",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/MartianSWAP",
+        href: "https://twitter.com/degenapefarm",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2610,7 +2610,7 @@ var AccountModal = function (_a) {
     return (React__default['default'].createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React__default['default'].createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React__default['default'].createElement(Flex, { mb: "32px" },
-            React__default['default'].createElement(LinkExternal, { small: true, href: "https://bscscan.com/address/" + account, mr: "16px" }, "View on BscScan"),
+            React__default['default'].createElement(LinkExternal, { small: true, href: "https://ftmscan.com/address/" + account, mr: "16px" }, "View on ftmscan"),
             React__default['default'].createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
         React__default['default'].createElement(Flex, { justifyContent: "center" },
             React__default['default'].createElement(Button, { size: "sm", variant: "secondary", onClick: function () {
